@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-const imgImage = '/src/assets/0707e6b2022462187b7b2dab43ed95bab6b24a66.png';
-const imgImage1 = '/src/assets/e10ce0bc9ebbb7cadeeff3ec3159f4f90dd8ed5a.png';
+const imgImage = '/assets/0707e6b2022462187b7b2dab43ed95bab6b24a66.png';
+const imgImage1 = '/assets/e10ce0bc9ebbb7cadeeff3ec3159f4f90dd8ed5a.png';
 
 export default function ProductDetailPage() {
   // State for annotations
