@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Figma Design System Tokens */
+:root {
+  /* Typography tokens from Figma variables */
+  --font-heading: Inter, sans-serif;
+  --font-heading-size: 24px;
+  --font-heading-weight: 600;
+  --font-heading-line-height: 1.2;
+  
+  --font-subheading: Inter, sans-serif;
+  --font-subheading-size: 20px;
+  --font-subheading-weight: 400;
+  --font-subheading-line-height: 1.2;
+  
+  --font-body-base: Inter, sans-serif;
+  --font-body-base-size: 16px;
+  --font-body-base-weight: 400;
+  --font-body-base-line-height: 1.4;
+  
+  --font-body-strong: Inter, sans-serif;
+  --font-body-strong-size: 16px;
+  --font-body-strong-weight: 600;
+  --font-body-strong-line-height: 1.4;
+  
+  --font-single-line-body: Inter, sans-serif;
+  --font-single-line-body-size: 16px;
+  --font-single-line-body-weight: 400;
+  --font-single-line-body-line-height: 1;
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-body-base);
+  font-size: var(--font-body-base-size);
+  font-weight: var(--font-body-base-weight);
+  line-height: var(--font-body-base-line-height);
+}
